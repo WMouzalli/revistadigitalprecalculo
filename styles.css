@@ -1,0 +1,222 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+body{
+    
+    background: linear-gradient(rgb(230, 209, 209),rgb(119, 119, 179));
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.container_header{
+    color: rgb(23, 24, 22);
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 0px rgb(11, 7, 7);
+}
+
+.container_header__h1{
+    text-align: center;
+    background-color: rgba(250, 21, 21, 0.315);
+}
+
+.container_tema1{
+    width: 100%;
+    text-align: center;
+}
+
+
+.container_tema1__img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid #359;
+}
+
+.container_tema1__parrafo{
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid #359; 
+    transition: 0.5s;
+}
+
+.container_tema1__parrafo:active{
+    background-color: rgb(222, 230, 155);
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid #359;
+}
+
+
+.container_tema2{
+    width: 100%;
+    text-align: center;
+}
+
+
+.container_tema2__img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(222, 16, 208);
+}
+
+.container_tema2__parrafo{
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(222, 16, 208);
+    transition: 0.5s;
+}
+
+.container_tema2__parrafo:active{
+    background-color: rgb(222, 230, 155);
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(222, 16, 208);
+}
+
+.container_indice{
+    background: linear-gradient(rgb(195, 201, 215),rgb(121, 216, 216));
+    text-decoration:none;
+    text-align: left;
+    padding: 20px;
+    color: black;
+    box-shadow: 3px 3px 3px rgb(99, 82, 82);
+    border-left: 5px solid rgb(11, 7, 7);
+}
+
+ul{
+    list-style-type:decimal;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+
+li a:active{
+    text-decoration: none;
+    color: white;
+}
+
+
+.container_tema3{
+    width: 100%;
+    text-align: center;
+}
+
+
+.container_tema3__img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(255, 119, 0);
+}
+
+.container_tema3__parrafo{
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(255, 119, 0);
+    transition: 0.5s;
+}
+
+.container_tema3__parrafo:active{
+    background-color: rgb(222, 230, 155);
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(255, 119, 0);
+}
+
+.container_tema4{
+    width: 100%;
+    text-align: center;
+}
+
+
+.container_tema4__img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(158, 21, 101);
+}
+
+.container_tema4__parrafo{
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(158, 21, 101);
+    transition: 0.5s;
+}
+
+.container_tema4__parrafo:active{
+    background-color: rgb(222, 230, 155);
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(158, 21, 101);
+}
+
+
+.container_tema5{
+    width: 100%;
+    text-align: center;
+}
+
+
+.container_tema5__img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(218, 241, 5);
+}
+
+.container_tema5__parrafo{
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(218, 241, 5);
+    transition: 0.5s;
+}
+
+.container_tema5__parrafo:active{
+    background-color: rgb(222, 230, 155);
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(218, 241, 5);
+}
+
+h3 {
+    font-size:250%;
+    text-shadow: 4px 4px 5px  rgb(121, 216, 216);
+}
+
+h1 { 
+    font-size: 350%;
+}
