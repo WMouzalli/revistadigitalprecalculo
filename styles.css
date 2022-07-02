@@ -212,6 +212,12 @@ li a:active{
     border-left: 5px solid rgb(218, 241, 5);
 }
 
+.container_biblio{
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+}
+
 h3 {
     font-size:250%;
     text-shadow: 4px 4px 5px  rgb(121, 216, 216);
