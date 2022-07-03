@@ -212,14 +212,66 @@ li a:active{
     border-left: 5px solid rgb(218, 241, 5);
 }
 
+
+.container_biblio>h3{
+    text-align: center;
+}
+
+.container_integrantes{
+    width: 100%;    
+}
+
+.container_integrantes>h3{
+    text-align: center;
+}
+
+.container_integrantes__nombres{
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(246, 114, 242);
+    transition: 0.5s;
+}
+
+.container_integrantes__nombres:active{
+    background-color: rgb(222, 230, 155);
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgb(99, 82, 82);
+    border-left: 5px solid rgb(246, 114, 242);
+}
+
+
 .container_biblio{
     width: 100%;
-    text-align: center;
+    margin-top: 50px;
+    text-align: left;
     text-decoration: none;
     padding: 20px;
-    color: rgb(71, 218, 34);
+    box-sizing: border-box;
+    color: rgb(15, 105, 34);
     box-shadow: 3px 3px 3px rgb(99, 82, 82);
-    border-left: 5px solid rgb(255, 255, 255);
+    background: linear-gradient(rgb(155,255,255),rgb(0,150,150));
+    border: solid 2px;
+    border-color: black;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.container_biblio:active{
+    width: 100%;
+    margin-top: 50px;
+    text-align: left;
+    text-decoration: none;
+    padding: 20px;
+    box-sizing: border-box;
+    color: rgb(255, 0, 106);
+    box-shadow: 3px 3px 3px rgb(99, 82, 82);
+    background: linear-gradient(rgb(0,150,150),);
+    border: solid 2px;
+    border-color: rgb(255, 0, 106);
+    border-radius: 10px;
 }
 
 h3 {
