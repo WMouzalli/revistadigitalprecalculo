@@ -247,7 +247,7 @@ li a:active{
     width: 100%;
     margin-top: 50px;
     text-align: left;
-    text-decoration: none;
+    text-decoration:none;
     padding: 20px;
     box-sizing: border-box;
     color: rgb(15, 105, 34);
@@ -263,7 +263,6 @@ li a:active{
     width: 100%;
     margin-top: 50px;
     text-align: left;
-    text-decoration: none;
     padding: 20px;
     box-sizing: border-box;
     color: rgb(255, 0, 106);
@@ -272,6 +271,14 @@ li a:active{
     border: solid 2px;
     border-color: rgb(255, 0, 106);
     border-radius: 10px;
+}
+
+.container_biblio>li a{
+    text-decoration: underline;
+}
+
+.container_biblio>h5{
+    color: rgb(0, 0, 0);
 }
 
 h3 {
